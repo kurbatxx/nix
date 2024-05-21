@@ -2,7 +2,10 @@
 
 {
   home.packages = with pkgs; [
-    neofetch
+    hwinfo
+    macchina
+
+    crow-translate
     anydesk
     #
 		waydroid
@@ -17,9 +20,18 @@
 		vscode
 		dbeaver
 		#
+    biome
+
+    pkg-config
+    SDL2
+    SDL2.dev    
+
+    gcc
     go
     zig_0_12
     rustup
+    bun
+    flutter
   ];
 
   programs.git = {
@@ -46,5 +58,3 @@
     enable = true;
   };
 }
-
-
